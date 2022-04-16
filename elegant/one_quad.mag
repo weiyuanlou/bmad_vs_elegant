@@ -1,0 +1,19 @@
+SDDS1
+&description text="magnet layout for beamline one_quad.lte" &end
+&column name=ElementName, type=string &end
+&column name=ElementType, type=string &end
+&column name=s, units=m, type=double &end
+&column name=Profile, type=double &end
+&data mode=ascii, no_row_counts=1 &end
+_BEGIN_ MARK 0 0
+"C" CHARGE 0.000000e+00  0
+"DDD" EDRIFT 0.000000e+00  0
+"DDD" EDRIFT 1.000000e-01  0
+"Q1" QUAD 1.000000e-01  0
+"Q1" QUAD 1.000000e-01  1
+"Q1" QUAD 1.300000e-01  1
+"Q1" QUAD 1.300000e-01  0
+"Q1" QUAD 1.000000e-01 0
+"Q1" QUAD 1.300000e-01 0
+"DDD" EDRIFT 1.300000e-01  0
+"DDD" EDRIFT 2.300000e-01  0
