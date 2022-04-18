@@ -1,0 +1,20 @@
+parameter[particle] = electron
+no_digested
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+ele1: quad,
+L = 0.03,
+k1 = 2.0,
+offset = 0.0
+
+lat: line = (ele1)
+
+use, lat
+    
