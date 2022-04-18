@@ -12,7 +12,7 @@ parameter[p0c] = 10e6
 ele1: quad,
 L = 0.03,
 k1 = 2.0,
-offset = 0.0
+x_offset = 0.0001
 
 lat: line = (ele1)
 

@@ -1,8 +1,9 @@
 C: CHARGE,TOTAL= 13E-12
     
-ELE1: QUAD,
-L = 0.03,
-K1 = 2.0
+ELE1: QUAD, &
+L = 0.03, &
+K1 = 2.0, &
+dx = 0.0001
 
 BPM_END: WATCH,FILENAME="BPM_END.out"
 

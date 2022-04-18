@@ -25,12 +25,12 @@
  reset_rf_for_each_step = 1
 &end
 
-&floor_coordinates !initial coordinates at BEAM0
+!&floor_coordinates !initial coordinates at BEAM0
  !filename = %s.flr,
- X0 = 0.0,
- Y0 = 0.0,
- Z0 = 0.0
-&end
+! X0 = 0.0,
+! Y0 = 0.0,
+! Z0 = 0.0
+!&end
 
 &twiss_output !initial Twiss at BEAM0
  filename = %s.twi,
