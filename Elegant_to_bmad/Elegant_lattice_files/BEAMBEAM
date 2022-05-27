@@ -1,0 +1,21 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: BEAMBEAM, &
+CHARGE = 1.0E-12, &
+XCENTER = 0.001, &
+YCENTER = 0.002, &
+XSIZE = 0.001, &
+YSIZE = 0.002, &
+DISTRIBUTION = "gaussian", &
+GROUP = NULL
+
+MYLINE: LINE = (ELE)
+    

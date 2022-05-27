@@ -1,0 +1,42 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: CCBEND, &
+L = 0.7, &
+ANGLE = 0.05, &
+K1 = 0.01, &
+TILT = 0.02, &
+YAW = 0.02, &
+HGAP = 0.02, &
+FINT1 = 0.02, &
+FINT2 = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+FSE = 0.001, &
+FSE_DIPOLE = 0.001, &
+FSE_QUADRUPOLE = 0.001, &
+INTEGRATION_ORDER = 4, &
+SYSTEMATIC_MULTIPOLES = "haha", &
+SYSTEMATIC_MULTIPOLE_FACTOR = 1, &
+REFERENCE_ORDER = 1, &
+MIN_NORMAL_ORDER = 1, &
+SYNCH_RAD = 0, &
+ISR = 0, &
+ISR1PART = 0, &
+USE_RAD_DIST = 0, &
+ADD_OPENING_ANGLE = 0, &
+OPTIMIZE_FSE = 0, &
+COMPENSATE_KN = 0, &
+EDGE_ORDER = 0
+
+
+MYLINE: LINE = (ELE)
+    

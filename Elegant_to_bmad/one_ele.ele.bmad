@@ -1,0 +1,21 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['one_ele.lte', 'one_ele.ele']
+!-
+
+
+parameter[p0c] = 1e6*(10)
+use, myline
+
+
+!&floor_coordinates !initial coordinates at BEAM0
+!filename = %s.flr,
+! X0 = 0.0,
+! Y0 = 0.0,
+! Z0 = 0.0
+!&end
+
+!initial Twiss at BEAM0
+
+!initial beam at BEAM0
+

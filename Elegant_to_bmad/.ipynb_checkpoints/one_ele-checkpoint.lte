@@ -1,0 +1,20 @@
+!verbatim beginning[beta_a] = 10
+!verbatim beginning[alpha_a] = 1
+!verbatim beginning[beta_b] = 10
+!verbatim beginning[alpha_b] = 1
+
+!verbatim parameter[geometry] = open
+!verbatim parameter[p0c] = 10e6
+
+
+C: CHARGE,TOTAL= 13E-12
+    
+ELE1: QUAD, &
+L = 0.03, &
+K1 = 2.0, &
+dx = 0.0001
+
+BPM_END: WATCH,FILENAME="BPM_END.out"
+
+MYLINE: LINE = (C, ELE1, BPM_END)
+    

@@ -1,0 +1,29 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: ALPH, &
+XMAX = 0.0, &
+XS1 = 0.0, &
+XS2 = 0.0, &
+DP1 = 0.0, &
+DP2 = 0.0, &
+XPUCK = -1, &
+WIDTHPUCK = -1, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.002, &
+TILT = 0.002, &
+PART = 0, &
+ORDER = 2, &
+GROUP = NULL
+
+
+MYLINE: LINE = (ELE)
+    

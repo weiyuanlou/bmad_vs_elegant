@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['BEAMBEAM']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+parameter[n_part] = 1.602176634e-19
+ele: beambeam, type = "beambeam", x_offset = 0.001, y_offset = 0.002, sig_x = 0.001, sig_y = 0.002, charge = 1.0e-12
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

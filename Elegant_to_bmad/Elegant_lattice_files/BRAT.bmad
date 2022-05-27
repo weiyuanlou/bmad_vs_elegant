@@ -1,0 +1,21 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['BRAT']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: sbend, type = "brat", l = 0.7, angle = 0.05, dg = 0.001 * ele[angle]/ele[L]
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

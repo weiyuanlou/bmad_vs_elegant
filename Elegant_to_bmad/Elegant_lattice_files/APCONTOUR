@@ -1,0 +1,29 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: APCONTOUR, &
+L = 0.7, &
+TILT = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+XFACTOR = 1, &
+YFACTOR = 1, &
+INVENT = 1, &
+STICKY = 1, &
+CANCEL = 1, &
+FILENAME = "haha", &
+XCOLUMN = "haha", &
+YCOLUMN = "haha", &
+GROUP = NULL
+
+
+MYLINE: LINE = (ELE)
+    

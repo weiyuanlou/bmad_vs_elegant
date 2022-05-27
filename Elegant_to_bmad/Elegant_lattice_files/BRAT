@@ -1,0 +1,31 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: BRAT, &
+L = 0.7, &
+ANGLE = 0.05, &
+FSE = 0.001, &
+ACCURACY = 0.001, &
+METHOD = NULL, &
+FILENAME = NULL, &
+XVERTEX = 0.0, &
+XENTRY = 0.0, &
+XEXIT = 0.0, &
+DXMAP = 0.001, &
+DYMAP = 0.002, &
+DZMAP = 0.003, &
+YAWMAP = 0.001, &
+FACTOR = 3, &
+DELTA_BY_INSIDE = 0.001, &
+XY_INTERPOLATION_ORDER = 4, &
+PARTICLE_OUTPUT_LOST_ONLY = 0
+
+MYLINE: LINE = (ELE)
+    

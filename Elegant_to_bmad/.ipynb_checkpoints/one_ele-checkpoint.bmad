@@ -1,0 +1,24 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['one_ele.lte']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+c: patch, type = "rotate"
+
+ele1: quadrupole, type = "quad", l = 0.03, k1 = 2.0, x_offset = 0.0001
+
+bpm_end: monitor, type = "watch"
+
+MYLINE: LINE = (C, ELE1, BPM_END)
+
+
+use, myline
