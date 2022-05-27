@@ -1,0 +1,9 @@
+C: CHARGE,TOTAL= 13E-12
+    ELE: QUAD,
+L = 0.03,
+K1 = 2.0
+
+BPM_END        : WATCH,FILENAME="BPM_END.out"
+
+MYLINE: LINE = (C, ELE, BPM_END)
+    
