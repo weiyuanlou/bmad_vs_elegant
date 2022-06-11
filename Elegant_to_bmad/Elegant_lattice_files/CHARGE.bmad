@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['CHARGE']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: marker, type = "charge"
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

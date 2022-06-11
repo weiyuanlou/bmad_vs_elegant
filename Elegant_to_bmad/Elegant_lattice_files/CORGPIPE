@@ -1,0 +1,23 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: CORGPIPE, &
+L = 0.7, &
+RADIUS = 0.05, &
+PERIOD = 0.01, &
+GAP = 0.02, &
+DEPTH = 0.02, &
+DT = 0.02, &
+TMAX = 0.02, &
+N_BINS = 20
+
+
+MYLINE: LINE = (ELE)
+    

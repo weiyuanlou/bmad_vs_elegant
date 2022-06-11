@@ -1,0 +1,21 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: CKICKER, &
+ID = "", &
+STRENGTH = 0.05, &
+KICK_LIMIT = 0.01, &
+PHASE = 0.02, &
+UPDATE_INTERVAL = 0, &
+START_PASS = -1, &
+NU = 0.0 
+
+MYLINE: LINE = (ELE)
+    

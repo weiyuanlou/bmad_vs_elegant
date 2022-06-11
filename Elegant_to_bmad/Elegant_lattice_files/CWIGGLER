@@ -1,0 +1,28 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: CWIGGLER, &
+L = 0.7, &
+B_MAX = 0.05, &
+BY_MAX = 0.01, &
+TGU_GRADIENT = 0.01, &
+POLE1_FACTOR = 0.01, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+TILT = 0.001, &
+INTEGRATION_ORDER = 0.001, &
+BY_FILE = "", &
+TGU = 1, &
+SINUSOIDAL = 0, &
+ISR = 0
+
+MYLINE: LINE = (ELE)
+    

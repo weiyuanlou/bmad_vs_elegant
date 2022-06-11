@@ -1,0 +1,31 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: CEPL, &
+L = 0.7, &
+RAMP_TIME = 1E-9, &
+TIME_OFFSET = 1E-8, &
+VOLTAGE = 0.02, &
+GAP = 0.02, &
+STATIC_VOLTAGE = 0.01, &
+TILT = 0.02, &
+ACCURACY = 0.0001, &
+X_MAX = 0.001, &
+Y_MAX = 0.001, &
+DX = 0.001, &
+DY = 0.002, &
+PHASE_REFERENCE = 0.0, &
+N_STEPS = 200, &
+METHOD = "", &
+FIDUCIAL = ""
+
+
+MYLINE: LINE = (ELE)
+    
