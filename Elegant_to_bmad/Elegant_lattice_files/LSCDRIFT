@@ -1,0 +1,22 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: DRIF, &
+L = 0.03, &
+LEFFECTIVE = 0.05, &
+SMOOTHING = 1, &
+BINS = 20, &
+SG_ORDER = 1, &
+LSC = 1, &
+RADIUS_FACTOR = 2
+
+
+MYLINE: LINE = (ELE)
+    

@@ -1,0 +1,25 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: LSRMDLTR, &
+L = 0.7, &
+BU = 0.05, &
+TGU_GRADIENT = 0.01, &
+PERIODS = 25, &
+POLE_FACTOR1 = 0.001, &
+N_STEPS = 20, &
+LASER_W0 = 1, &
+LASER_PHASE = 0.0, &
+HELICAL = 0, &
+TIME_OFFSET = 0.02, &
+ISR = 0
+
+MYLINE: LINE = (ELE)
+    

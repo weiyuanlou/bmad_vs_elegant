@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['LSCDRIFT']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: drift, type = "drif", l = 0.03
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

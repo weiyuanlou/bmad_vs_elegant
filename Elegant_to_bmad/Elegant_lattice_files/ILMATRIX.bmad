@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['ILMATRIX']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: match, type = "ilmatrix", l = 0.7, tilt = 0.001
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

@@ -1,0 +1,19 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MHISTOGRAM, &
+FILE1D = "", &
+INTERVAL = 0.0, &
+INPUT_BINS = "", &
+DISABLE = 0.0
+
+
+MYLINE: LINE = (ELE)
+    

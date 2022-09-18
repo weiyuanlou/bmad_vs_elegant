@@ -1,0 +1,24 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: FTRFMODE, &
+FACTOR = 0.7, &
+N_BINS = 5, &
+BIN_SIZE = 0.0, &
+DX = 0.02, &
+DY = 0.02, &
+XFACTOR = 0.02, &
+YFACTOR = 0.02, &
+CUTOFF = 1E8, &
+N_CAVITIES = 10
+
+
+MYLINE: LINE = (ELE)
+    

@@ -1,0 +1,23 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['KQUAD']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: quadrupole, type = "kquad", l = 0.7, k1 = 0.05, y_pitch = 0.05, x_pitch = 0.05, tilt = 0.02, x_offset = 0.001,
+          y_offset = 0.001, z_offset = 0.001, hkick = 20, vkick = 20
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

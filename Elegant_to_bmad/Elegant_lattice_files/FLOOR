@@ -1,0 +1,21 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: FLOOR, &
+X = 0.001, &
+Y = 0.002, &
+Z = 0.003, &
+THETA = 0.01, &
+PHI = 0.01, &
+PSI = 0.01
+
+
+MYLINE: LINE = (ELE)
+    

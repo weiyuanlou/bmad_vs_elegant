@@ -1,0 +1,22 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MAXAMP, &
+L = 0.7, &
+X_MAX = 0.05, &
+Y_MAX = 0.01, &
+ELLIPTICAL = 0, &
+EXPONENT = 2, &
+OPEN_SIDE = "", &
+YEXPONENT = 2
+
+
+MYLINE: LINE = (ELE)
+    

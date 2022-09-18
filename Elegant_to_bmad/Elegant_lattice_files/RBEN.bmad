@@ -1,0 +1,24 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['RBEN']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: rbend, type = "rben", l = 0.7, angle = 0.05, k1 = 0.02, e1 = 0.01, e2 = 0.01, ref_tilt = 0.067, k2 = 0.02,
+          h1 = 0.02, h2 = 0.02, hgap = 0.02, fint = 0.02, x_offset = 0.001, y_offset = 0.002, z_offset = 0.003,
+          dg = 0.001 * ele[angle]/ele[L], dg = 0.001 * ele[angle]/ele[L], roll = 0.07 * cos(0.05/2)
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

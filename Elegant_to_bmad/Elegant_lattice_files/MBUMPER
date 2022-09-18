@@ -1,0 +1,27 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MBUMPER, &
+L = 0.7, &
+STRENGTH = 0.05, &
+ORDER = 1, &
+TIME_OFFSET = 0.01, &
+PERIODIC = 0.01, &
+PHASE_REFERENCE = 0.02, &
+N_KICKS = 30, &
+TILT = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+FIRE_ON_PASS = 1
+
+
+MYLINE: LINE = (ELE)
+    

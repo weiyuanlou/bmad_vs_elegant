@@ -1,0 +1,24 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: HKICK, &
+L = 0.7, &
+KICK = 0.05, &
+TILT = 0.02, &
+B2 = 0.001, &
+CALIBRATION = 1, &
+ORDER = 0, &
+ISR = 1, &
+LERAD = 0.03, &
+STEERING = 1
+
+
+MYLINE: LINE = (ELE)
+    

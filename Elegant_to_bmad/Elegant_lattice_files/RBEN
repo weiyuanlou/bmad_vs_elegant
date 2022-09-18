@@ -1,0 +1,38 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: RBEN, &
+L = 0.7, &
+ANGLE = 0.05, &
+K1 = 0.01, &
+E1 = 0.01, &
+E2 = 0.01, &
+TILT = 0.067, &
+ETILT = 0.07, &
+K1 = 0.02, &
+K2 = 0.02, &
+H1 = 0.02, &
+H2 = 0.02, &
+HGAP = 0.02, &
+FINT = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+B1 = 0.00777, &
+B2 = 0.00778, &
+FSE = 0.001, &
+FSE_DIPOLE = 0.001, &
+FSE_QUADRUPOLE = 0.001, &
+ETILT_SIGN = 0.0, &
+EDGE_ORDER = 1
+
+
+MYLINE: LINE = (ELE)
+    

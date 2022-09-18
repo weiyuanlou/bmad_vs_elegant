@@ -1,0 +1,29 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: NIBEND, &
+L = 0.7, &
+ANGLE = 0.05, &
+E1 = 0.01, &
+E2 = 0.01, &
+TILT = 0.02, &
+ETILT = 0.045, &
+FP1 = 0.02, &
+FSE = 0.02, &
+HGAP = 0.02, &
+FINT = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+ADJUST_FIELD = 0
+
+
+MYLINE: LINE = (ELE)
+    

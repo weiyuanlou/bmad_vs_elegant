@@ -1,0 +1,26 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MRFDF, &
+FACTOR = 0.7, &
+A1 = 0.05, &
+A5 = 0.05, &
+B1 = 0.05, &
+B2 = 0.05, &
+B5 = 0.05, &
+FREQUENCY1 = 3E9, &
+FREQUENCY5 = 2E9, &
+PHASE1 = 0.01, &
+PHASE5 = 0.01, &
+PHASE_REFERENCE = 0.02
+
+
+MYLINE: LINE = (ELE)
+    

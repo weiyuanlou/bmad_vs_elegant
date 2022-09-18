@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['MONI']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: monitor, type = "moni", l = 0.03, x_offset = 0.001, y_offset = 0.002, tilt = 0.002
+
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

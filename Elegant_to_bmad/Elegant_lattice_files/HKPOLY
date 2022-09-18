@@ -1,0 +1,27 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: HKPOLY, &
+L = 0.7, &
+K00 = 0.001, &
+K65 = 0.002, &
+D02 = 0.003, &
+E012 = 0.001, &
+DX = 0.002, &
+DY = 0.003, &
+DZ = 0.003, &
+TILT = 0.003, &
+FACTOR = 1, &
+N_REPEATS = 1, &
+GROUP = ""
+
+
+MYLINE: LINE = (ELE)
+    

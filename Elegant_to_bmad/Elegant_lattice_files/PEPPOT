@@ -1,0 +1,21 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: PEPPOT, &
+L = 0.7, &
+RADII = 0.05, &
+TILT = 0.02, &
+THETA_RMS = 0.001, &
+N_HOLES = 10, &
+TRANSMISSION = 0.4
+
+
+MYLINE: LINE = (ELE)
+    

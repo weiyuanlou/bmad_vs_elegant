@@ -1,0 +1,20 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: POLYSERIES, &
+L = 0.7, &
+TILT = 0.02, &
+DX = 0.001, &
+DY = 0.001, &
+DZ = 0.001
+
+
+MYLINE: LINE = (ELE)
+    

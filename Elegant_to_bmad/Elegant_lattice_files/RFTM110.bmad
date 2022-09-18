@@ -1,0 +1,21 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['RFTM110']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+ele: rfcavity, type = "rftm110", phi0 = (0.01)/360, tilt = 0.01, rf_frequency = 5e9
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

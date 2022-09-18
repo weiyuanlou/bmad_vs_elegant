@@ -1,0 +1,25 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: EVKICK, &
+L = 0.7, &
+KICK = 0.05, &
+TILT = 0.02, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.003, &
+CALIBRATION = 1, &
+STEERING = 1, &
+RANDOM_MULTIPOLES = "", &
+RANDOM_MULTIPOLE_FACTOR = 1
+
+
+MYLINE: LINE = (ELE)
+    

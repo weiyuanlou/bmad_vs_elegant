@@ -1,0 +1,26 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MONI, &
+L = 0.03, &
+WEIGHT = 0.0, &
+XCALIBRATION = 0.0, &
+XSETPOINT = 0.0, &
+XREADOUT = "", &
+ORDER = 0, &
+CO_FITPOINT = 0, &
+DX = 0.001, &
+DY = 0.002, &
+TILT = 0.002, &
+GROUP = NULL
+
+
+MYLINE: LINE = (ELE)
+    

@@ -1,0 +1,22 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: RFMODE, &
+RA = 0.1, &
+RS = 1E6, &
+FREQ = 5E9, &
+Q = 5E9, &
+CHARGE = 0, &
+BETA = 100, &
+BIN_SIZE = 2, &
+N_BINS = 20
+
+MYLINE: LINE = (ELE)
+    

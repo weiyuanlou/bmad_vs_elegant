@@ -1,0 +1,26 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: KQUSE, &
+L = 0.7, &
+K1 = 0.05, &
+K2 = 0.03, &
+TILT = 0.02, &
+FSE1 = 0.01, &
+FSE2 = 0.01, &
+N_SLICES = 10, &
+DX = 0.001, &
+DY = 0.001, &
+DZ = 0.001, &
+INTEGRATION_ORDER = 4
+
+
+MYLINE: LINE = (ELE)
+    

@@ -1,0 +1,22 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: HISTOGRAM, &
+INTERVAL = 1, &
+BINS = 50, &
+X_DATA = 1, &
+BIN_SIZE_FACTOR = 0.01, &
+SPARSE = 0, &
+DISABLE = 0, &
+ED_PID = -1
+
+
+MYLINE: LINE = (ELE)
+    

@@ -1,0 +1,22 @@
+
+!+
+! Translated by elegant_to_bmad.py from Elegant file(s): ['RFMODE']
+!-
+
+beginning[beta_a] = 10
+beginning[alpha_a] = 1
+beginning[beta_b] = 10
+beginning[alpha_b] = 1
+
+parameter[geometry] = open
+parameter[p0c] = 10e6
+
+
+
+parameter[n_part] = 1.602176634e-19
+ele: marker, type = "rfmode", rf_frequency = 5e9, charge = 0
+
+MYLINE: LINE = (ELE)
+
+
+use, myline

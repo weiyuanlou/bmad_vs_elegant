@@ -1,0 +1,25 @@
+!!verbatim beginning[beta_a] = 10
+!!verbatim beginning[alpha_a] = 1
+!!verbatim beginning[beta_b] = 10
+!!verbatim beginning[alpha_b] = 1
+
+!!verbatim parameter[geometry] = open
+!!verbatim parameter[p0c] = 10e6
+
+
+    
+ELE: MALIGN, &
+DXP = 0.0, &
+DYP = 0.0, &
+DT = 0.0, &
+DP = 0.0, &
+DE = 0.0, &
+ON_PASS = -1, &
+START_PID = -1, &
+DX = 0.001, &
+DY = 0.002, &
+DZ = 0.002
+
+
+MYLINE: LINE = (ELE)
+    
